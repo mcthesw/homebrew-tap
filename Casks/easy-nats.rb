@@ -1,17 +1,8 @@
-# This cask is automatically updated by CI on each release.
-# To install: brew install mcthesw/tap/easy-nats
 cask "easy-nats" do
-  version "0.1.0"
+  version "0.1.2"
 
-  on_arm do
-    url "https://github.com/mcthesw/easy-nats/releases/download/v#{version}/easy-nats-macos-aarch64.dmg"
-    sha256 "TODO_FILL_AFTER_FIRST_RELEASE"
-  end
-
-  on_intel do
-    url "https://github.com/mcthesw/easy-nats/releases/download/v#{version}/easy-nats-macos-x86_64.dmg"
-    sha256 "TODO_FILL_AFTER_FIRST_RELEASE"
-  end
+  url "https://github.com/mcthesw/easy-nats/releases/download/v#{version}/easy-nats-macos-aarch64.dmg"
+  sha256 "3733f4526309c6c74567418c9e7f45891168da43ad9c968564d84796d9bd0297"
 
   name "Easy NATS"
   desc "Desktop GUI client for NATS servers, JetStream, KV, and Object Store"
@@ -29,5 +20,6 @@ cask "easy-nats" do
     "~/Library/Application Support/easy-nats",
     "~/Library/Caches/easy-nats",
     "~/Library/Logs/easy-nats",
+    "~/Library/Preferences/io.github.mcthesw.easy-nats.plist",
   ]
 end
