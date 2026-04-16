@@ -1,9 +1,16 @@
 # homebrew-tap
 
-Homebrew tap for [easy-nats](https://github.com/mcthesw/easy-nats).
+Homebrew tap for Sworld's projects.
 
-## Install
+## Available
+
+| Formula | Install |
+|---------|---------|
+| easy-nats | `brew install mcthesw/tap/easy-nats` |
+
+## Usage
 
 ```bash
-brew install mcthesw/tap/easy-nats
+brew tap mcthesw/tap
+brew install <formula>
 ```
