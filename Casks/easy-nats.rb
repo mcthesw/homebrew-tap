@@ -1,8 +1,8 @@
 cask "easy-nats" do
-  version "0.1.3"
+  version "0.1.5"
 
   url "https://github.com/mcthesw/easy-nats/releases/download/v#{version}/easy-nats-macos-aarch64.dmg"
-  sha256 "a3e3f48bcec72de507303332e930f0e4cee3f75eae161bf4740c5631bd977e8c"
+  sha256 "b12cf86708bd1daf0aa9bc3f16a8f41e3734b51c313eab6f36928d687de9701d"
 
   name "Easy NATS"
   desc "Desktop GUI client for NATS servers, JetStream, KV, and Object Store"
